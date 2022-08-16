@@ -10,6 +10,7 @@ public class Main {
             e.printStackTrace();
         }
         System.out.println("2");
+        System.out.println("7");
     }
 
     public static void test(){
