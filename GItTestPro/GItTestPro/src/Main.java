@@ -4,5 +4,18 @@ public class Main {
         System.out.println("branch3");
         System.out.println("m1e1");
         System.out.println("b3e2");
+        try {
+            test();
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
+    public static void test(){
+        try {
+            throw new RuntimeException("re");
+        }finally {
+            System.out.println("fin");
+        }
     }
 }
