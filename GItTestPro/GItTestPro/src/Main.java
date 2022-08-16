@@ -9,6 +9,7 @@ public class Main {
         }catch (Exception e){
             e.printStackTrace();
         }
+        System.out.println("2");
     }
 
     public static void test(){
