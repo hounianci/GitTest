@@ -1,3 +1,4 @@
 b1edit2
 b1edit1
+mergeTest
 mergeTest2
